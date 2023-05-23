@@ -18,41 +18,31 @@
             </div>
         </div>
         <div class="task-add">
-            <p>Add New Task</p>
-            <input type="text">
+            <label for="add-task">Add New Task:</label>
+            <input type="text" id="add-task">
             <button>Add Task</button>
         </div>
         <div class="task-status">
             <div class="incomplete-task">
                 <h1 class="heading">Incomplete Tasks</h1>
                 <div class="ic-task-list">
-                    <input type="radio">Task Name
+                    <input type="checkbox" id="task-name"><label for="task-name">Task Name</label>
                     <button>Update</button>
                 </div>
                 <div class="ic-task-list">
-                    <input type="radio">Task Name
+                    <input type="checkbox" id="task-name"><label for="task-name">Task Name</label>
                     <button>Update</button>
                 </div>
                 <div class="ic-task-list">
-                    <input type="radio">Task Name
+                    <input type="checkbox" id="task-name"><label for="task-name">Task Name</label>
                     <button>Update</button>
                 </div>
             </div>
             <div class="completed-task">
-                <div class="incomplete-task">
-                    <h1 class="heading">Complete Tasks</h1>
-                    <div class="ic-task-list">
-                        <input type="radio">Task Name
-                        <button>Update</button>
-                    </div>
-                    <div class="ic-task-list">
-                        <input type="radio">Task Name
-                        <button>Update</button>
-                    </div>
-                    <div class="ic-task-list">
-                        <input type="radio">Task Name
-                        <button>Update</button>
-                    </div>
+                <h1 class="heading">Complete Tasks</h1>
+                <div class="c-task-list">
+                    <input type="checkbox" id="task-name"><label for="task-name">Task Name</label>
+                    <button>Delete</button>
                 </div>
             </div>
         </div>
