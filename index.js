@@ -1,0 +1,1 @@
+const newTask = document.querySelector('#add-task');
