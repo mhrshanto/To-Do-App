@@ -17,33 +17,29 @@
                 <h1>TO-DO APP</h1>
             </div>
         </div>
-        <div class="task-add">
+        <form class="task-add">
             <label for="add-task">Add New Task:</label>
             <input type="text" id="add-task">
             <button>Add Task</button>
-        </div>
+        </form>
         <div class="task-status">
             <div class="incomplete-task">
                 <h1 class="heading">Incomplete Tasks</h1>
-                <div class="ic-task-list">
-                    <input type="checkbox" id="task-name"><label for="task-name">Task Name</label>
-                    <button>Update</button>
-                </div>
-                <div class="ic-task-list">
-                    <input type="checkbox" id="task-name"><label for="task-name">Task Name</label>
-                    <button>Update</button>
-                </div>
-                <div class="ic-task-list">
-                    <input type="checkbox" id="task-name"><label for="task-name">Task Name</label>
-                    <button>Update</button>
-                </div>
+                <ul id ="ictList">
+                    <li class ="ic-task-list">
+                        <input type="checkbox" id="task-name"><label for="task-name">Task Name</label>
+                        <button>Update</button>
+                    </li>
+                </ul>
             </div>
             <div class="completed-task">
                 <h1 class="heading">Complete Tasks</h1>
-                <div class="c-task-list">
-                    <input type="checkbox" id="task-name"><label for="task-name">Task Name</label>
-                    <button>Delete</button>
-                </div>
+                <ul id ="ctList">
+                    <li class="c-task-list">
+                        <input type="checkbox" id="task-name"><label for="task-name">Task Name</label>
+                        <button>Delete</button>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
